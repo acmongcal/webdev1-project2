@@ -4,19 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Round&family=Press+Start+2P&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Story+Script&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize-fwd.css">
+    <link rel="stylesheet" href="styles/base.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <a class="screen-reader-text" href="#">Skip to content</a>
+    <header id="header">
+        <a href="#"><img src="images/home.png" class="home" alt="Home icon"></a>
+        <nav class="site-nav">
             <ul>
-                <li>Places</li>
-                <li>Food</li>
-                <li>Travel</li>
+                <li><a href="places.html">Places</a></li>
+                <li><a href="foods.html">Food</a></li>
+                <li><a href="travel.html">Travel</a></li>
             </ul>
         </nav>
     </header>
-    <footer>
+    <section class="banner">
+        <h1>Philippines</h1>
+        <blockquote>
+            <h2>“He who does not know how to look back at where he came from will never get to his destination.”</h2>
+            <cite>- Jose Rizal</cite>
+        </blockquote>
+        <img src="images/banner.jpg" alt="philippine national museum">
+        
+    </section>
     
+    <section class="about">
+        <h2>About Philippines</h2>
+        <p>The Philippines have long been South-east Asia’s pin-up island-hopping destination: around 7,641 tropical isles of coral reefs brimming with sea life, rolling rice paddies and huge cities. And while the big-hitting corners such as Palawan and Boracay are nobody’s secret anymore, venturing off the well-worn tourist route unveils lesser-known spots – uncrowded, wide open spaces that are yours for the taking. The country has been quieter than ever before, with much of the world under lockdown since 2020, but as it reopens, it's also unveiling new infrastructure and off-the-beaten-path destinations to uncover. </p>
+    </section>
+
+    <section class="explore">
+        <h2>Explore Philippines</h2>
+        <article>
+            <h3>Top 10 Places to Go</h3>
+            <img src="images/destinations.jpg" alt="picture of an island in Philippines">
+            <p>Know the famous tourist spots and places you want to visit while in the Philippines</p>
+            <a href="places.html">Explore</a>
+        </article>
+        <article>
+            <h3>Top 10 Foods to Try</h3>
+            <img src="images/food-bg.jpg" alt="picture of various filipino foods">
+            <p>Experience the most famous cuisines and delicacies. Only in Philippines</p>
+            <a href="foods.html">Enjoy</a>
+        </article>
+        <article>
+            <h3>8 Ways to Travel</h3>
+            <img src="images/travel-bg.jpg" alt="various filipino foods">
+            <p>Learn more on the modes of transportations that you need know while exploring Philippines.</p>
+            <a href="travel.html">Travel</a>
+        </article>
+    </section>
+
+    <nav class="subscribe">
+        <a href="#"><img src="images/subscribe.png" alt=""></a>
+        <!-- <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" required>
+            <input type="checkbox" name="sign-up" id="sign-up">
+            <label for="sign-up">Sign me up for exclusive news</label>
+            <button type="submit">Subscribe</button>
+        </form> -->
+    </nav>
+
+    <footer>
+        <a href="#header">
+            <img src="images/top-arrow-icon.png" alt="arrow-up">
+        </a>
+        <p>&copy; Kuuhaku Dev 2026.</p>
+        <nav class="contact" id="contact">
+            <a href="mailto:kuuuhakudev@gmail.com">
+                <img src="images/mail-icon.png" alt="mail-icon">
+            </a>
+            <a href="https://www.linkedin.com/in/acmongcal">
+                <img src="images/linkedin-icon.png" alt="linkedin-icon">
+            </a>
+            <a href="https://github.com/acmongcal">
+                <img src="images/github-icon.png" alt="github-icon">
+            </a>
+        </nav>
+        <p>For Educational Purposes</p>
     </footer>
 </body>
 

@@ -1,0 +1,135 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic (CALLED IN ANOTHER FILE)
+	- Normalize
+	- Box sizing
+	- Media width
+# Base
+	- Typography
+	- Elements
+	- Links
+# Layouts
+# Components
+	- Header
+	- Main
+	- Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+/* Typography
+--------------------------------------------- */
+body {
+	
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	
+}
+
+p {
+	
+}
+
+.food{
+    color: #000000;
+}
+
+/* Links
+--------------------------------------------- */
+a {
+	
+}
+
+a:visited {
+	
+}
+
+a:hover {
+	
+}
+
+a:focus {
+	
+}
+
+a:active {
+	
+}
+
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+
+/* Header
+--------------------------------------------- */
+
+
+/* Main
+--------------------------------------------- */
+
+
+/* Footer
+--------------------------------------------- */
+/* Media Queries */
+@media (min-width: 41.813em) {
+
+    .food-grid{
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2,minmax(0,40rem));
+        grid-template-rows: minmax(0,30rem);
+        gap: 1rem;
+        justify-content: center;
+        padding: 1rem 2rem;
+    }
+    .left img{
+        grid-row: -2/2;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .left p{
+        grid-column:-1/2;
+        margin-top: -20rem;
+    }
+
+    .left h2{
+        margin-top: 5rem;
+    }
+
+    .right img{
+        grid-column:-1/2;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .right h2{
+        grid-row: -2/2;
+        margin-top: 5rem;
+    }
+
+    .right p{
+        grid-row: 2/2;
+        margin-top: -20rem;
+    }
+
+
+
+    
+}
