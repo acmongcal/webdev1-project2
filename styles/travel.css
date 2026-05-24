@@ -22,95 +22,33 @@
 
 /* Typography
 --------------------------------------------- */
-body {
-	
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	
-}
-
-p {
-	
+.banner{
+    color: #f0f8ff;
+    text-shadow: none;
 }
 
 .travel{
     color: #000000;
 }
-/* Elements
---------------------------------------------- */
-ul {
-	
-}
-
-ol {
-	
-}
-
-dl {
-	
-}
-
-figure {
-	
-}
-
-table {
-	
-}
-
-/* Links
---------------------------------------------- */
-a {
-	
-}
-
-a:visited {
-	
-}
-
-a:hover {
-	
-}
-
-a:focus {
-	
-}
-
-a:active {
-	
-}
-
-
-/*--------------------------------------------------------------
-# Layout
---------------------------------------------------------------*/
-
-
-
-/*--------------------------------------------------------------
-# Components
---------------------------------------------------------------*/
-
-/* Header
---------------------------------------------- */
-
 
 /* Main
 --------------------------------------------- */
+.banner h1{
+    background: rgba(0, 1, 0, 0.7);
+    border-radius: 2rem;
+}
+
 .travel{
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
-    margin: 5rem 0;
+    margin-bottom: 10rem;
+    padding: 1rem;
 }
+
 .travel article{
+    margin-top: 6rem;
     position: relative;
     width: 30rem;
     height: 30rem;
@@ -122,5 +60,4 @@ a:active {
     height: 20rem;
 }
 
-/* Footer
---------------------------------------------- */
+

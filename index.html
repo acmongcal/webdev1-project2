@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nova+Round&family=Press+Start+2P&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Story+Script&family=Tilt+Neon&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize-fwd.css">
     <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/scripts.js" defer></script>
 </head>
 <body>
     <a class="screen-reader-text" href="#">Skip to content</a>
@@ -22,62 +23,67 @@
             </ul>
         </nav>
     </header>
-    <section class="banner">
-        <h1>Philippines</h1>
-        <blockquote>
-            <h2>“He who does not know how to look back at where he came from will never get to his destination.”</h2>
-            <cite>- Jose Rizal</cite>
-        </blockquote>
-        <img src="images/banner.jpg" alt="philippine national museum">
+    <main>
+        <section class="banner">
+            <h1>Philippines</h1>
+            <blockquote>
+                <h2>“He who does not know how to look back at where he came from will never get to his destination.”</h2>
+                <cite>- Jose Rizal</cite>
+            </blockquote>
+            <img src="images/banner.jpg" alt="philippine national museum"> 
+        </section>
         
-    </section>
+        <section class="about">
+            <h2>About Philippines</h2>
+            <p>The Philippines have long been South-east Asia’s pin-up island-hopping destination: around 7,641 tropical isles of coral reefs brimming with sea life, rolling rice paddies and huge cities. And while the big-hitting corners such as Palawan and Boracay are nobody’s secret anymore, venturing off the well-worn tourist route unveils lesser-known spots – uncrowded, wide open spaces that are yours for the taking. The country has been quieter than ever before, with much of the world under lockdown since 2020, but as it reopens, it's also unveiling new infrastructure and off-the-beaten-path destinations to uncover. </p>
+        </section>
+
+        <section class="explore">
+            <h2>Explore Philippines</h2>
+            <article>
+                <div class="explore-details">
+                    <h3>Top 10 Places to Go</h3>
+                    <p>Know the famous tourist spots and places you want to visit while in the Philippines</p>
+                    <a href="places.html">Explore</a>
+                </div>
+                <img src="images/destinations.jpg" alt="picture of an island in Philippines">
+            </article>
+            <article>
+                <div class="explore-details">
+                    <h3>Top 10 Foods to Try</h3>
+                    <p>Experience the most famous cuisines and delicacies. Only in Philippines</p>
+                    <a href="foods.html">Enjoy</a>
+                </div>
+                <img src="images/food-bg.jpg" alt="picture of various filipino foods">
+            </article>
+            <article>
+                <div class="explore-details">
+                    <h3>8 Ways to Travel</h3>
+                    <p>Learn more on the modes of transportations that you need know while exploring Philippines.</p>
+                    <a href="travel.html">Travel</a>
+                </div>
+                <img src="images/travel-bg.jpg" alt="various filipino foods">
+            </article>
+        </section>
+
+        <section>
+            <a id="subscribe" href="#"><img src="images/subscribe.png" alt=""></a>
+            <a id="close" href="#"><img src="images/close.png" alt=""></a>
+            <form id="subscribe-form" action="#" method="post">
+                <fieldset>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" required>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email" required>
+                    <input type="checkbox" name="sign-up" id="sign-up">
+                    <label for="sign-up">Sign me up for exclusive news</label>
+                    <button type="submit">Subscribe</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
     
-    <section class="about">
-        <h2>About Philippines</h2>
-        <p>The Philippines have long been South-east Asia’s pin-up island-hopping destination: around 7,641 tropical isles of coral reefs brimming with sea life, rolling rice paddies and huge cities. And while the big-hitting corners such as Palawan and Boracay are nobody’s secret anymore, venturing off the well-worn tourist route unveils lesser-known spots – uncrowded, wide open spaces that are yours for the taking. The country has been quieter than ever before, with much of the world under lockdown since 2020, but as it reopens, it's also unveiling new infrastructure and off-the-beaten-path destinations to uncover. </p>
-    </section>
-
-    <section class="explore">
-        <h2>Explore Philippines</h2>
-        <article>
-            <div class="explore-details">
-                <h3>Top 10 Places to Go</h3>
-                <p>Know the famous tourist spots and places you want to visit while in the Philippines</p>
-                <a href="places.html">Explore</a>
-            </div>
-            <img src="images/destinations.jpg" alt="picture of an island in Philippines">
-        </article>
-        <article>
-            <div class="explore-details">
-                <h3>Top 10 Foods to Try</h3>
-                <p>Experience the most famous cuisines and delicacies. Only in Philippines</p>
-                <a href="foods.html">Enjoy</a>
-            </div>
-            <img src="images/food-bg.jpg" alt="picture of various filipino foods">
-        </article>
-        <article>
-            <div class="explore-details">
-                <h3>8 Ways to Travel</h3>
-                <p>Learn more on the modes of transportations that you need know while exploring Philippines.</p>
-                <a href="travel.html">Travel</a>
-            </div>
-            <img src="images/travel-bg.jpg" alt="various filipino foods">
-        </article>
-    </section>
-
-    <nav class="subscribe">
-        <a href="#"><img src="images/subscribe.png" alt=""></a>
-        <!-- <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" required>
-            <label for="email">Email:</label>
-            <input type="text" name="email" id="email" required>
-            <input type="checkbox" name="sign-up" id="sign-up">
-            <label for="sign-up">Sign me up for exclusive news</label>
-            <button type="submit">Subscribe</button>
-        </form> -->
-    </nav>
-
+    
     <footer>
         <a href="#header">
             <img src="images/top-arrow-icon.png" alt="arrow-up">
