@@ -35,12 +35,13 @@ h6 {
 	
 }
 
-p {
-	
+.banner{
+    color: rgb(240, 248, 255);
+    text-shadow: none;
 }
 
 .credit{
-    color: #000000;
+    color: rgb(0, 0, 0);
 }
 
 /* Elements
@@ -48,19 +49,26 @@ p {
 
 table{
 	height: fit-content;
-    border: #000000 solid 0.2rem;
+    border: rgb(0, 0, 0) solid 0.2rem;
 }
 
 /*--------------------------------------------------------------
-# Components
+
+
+# Links
 --------------------------------------------------------------*/
 
-/* Header
---------------------------------------------- */
-
+table a,
+table a:visited { 
+	color: rgb(175, 9, 9);
+}
 
 /* Main
 --------------------------------------------- */
+.banner h1{
+    background: rgba(0, 1, 0, 0.7);
+    border-radius: 2rem;
+}
 .credit{
     position: relative;
     display: flex;
@@ -70,5 +78,4 @@ table{
     padding: 4rem;
 }
 
-/* Footer
---------------------------------------------- */
+
