@@ -23,12 +23,12 @@
 /* Typography
 --------------------------------------------- */
 .banner{
-    color: #f0f8ff;
+    color: rgb(240, 248, 255);
     text-shadow: none;
 }
 
 .travel{
-    color: #000000;
+    color: rgb(0, 0, 0);
 }
 
 /* Main

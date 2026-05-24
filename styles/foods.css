@@ -36,12 +36,12 @@ h6 {
 }
 
 .banner{
-    color: #f0f8ff;
+    color: rgb(240, 248, 255);
     text-shadow: none;
 }
 
 .food{
-    color: #000000;
+    color: rgb(0, 0, 0);
 }
 
 /* Main
