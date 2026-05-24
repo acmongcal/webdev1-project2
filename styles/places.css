@@ -1,0 +1,146 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic (CALLED IN ANOTHER FILE)
+	- Normalize
+	- Box sizing
+	- Media width
+# Base
+	- Typography
+	- Elements
+	- Links
+# Layouts
+# Components
+	- Header
+	- Main
+	- Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+/* Typography
+--------------------------------------------- */
+body {
+	
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	
+}
+
+p {
+	
+}
+
+.places-grid{
+    color: #f5f5f5;
+}
+
+/* Elements
+--------------------------------------------- */
+ul {
+	
+}
+
+ol {
+	
+}
+
+dl {
+	
+}
+
+figure {
+	
+}
+
+table {
+	
+}
+
+/* Links
+--------------------------------------------- */
+a {
+	
+}
+
+a:visited {
+	
+}
+
+a:hover {
+	
+}
+
+a:focus {
+	
+}
+
+a:active {
+	
+}
+
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+
+/* Header
+--------------------------------------------- */
+
+
+/* Main
+--------------------------------------------- */
+.places-grid{
+    position: relative;
+    display: grid;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    align-items: center;
+}
+.places-grid article{
+    position: relative;
+    height: 40rem;
+}
+.places-grid article img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	height: 40rem;
+	width: 100%;
+	z-index: -1; 
+}
+.place-info{
+    margin: 0 auto;
+    padding:1rem 3rem;
+}
+
+
+/* Footer
+--------------------------------------------- */
+@media (min-width: 43.75em) {
+    .places-grid{
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        gap: 0.5rem;
+    }
+
+    .place-span{
+        grid-column: span 2;
+    }
+}

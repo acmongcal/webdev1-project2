@@ -166,26 +166,10 @@ a:active {
 	border-radius: 1rem;
 }
 
-.explore article p{
-	position: relative;
-	display: block;
-	width: 70%;
-	margin: 0 auto;
-}
-.explore article h3{
-	position: relative;
-	display: block;
-	width: 70%;
-	margin: 0 auto;
-	margin-top: 20rem;
-}
 
-.explore article a{
-	position: relative;
-	display: block;
-	width: 70%;
+.explore-details{
 	margin: 0 auto;
-	text-align: center;
+    padding:10rem 3rem;
 }
 .subscribe{
 	position:fixed;
@@ -195,6 +179,7 @@ a:active {
 	right:1rem;
 	top:75%;
 }
+
 
 /* Footer
 --------------------------------------------- */
